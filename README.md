@@ -1,31 +1,37 @@
-<!-- GETTING STARTED -->
-## Getting Started
+<a id="readme-top"></a>
+# RAG（Retrieval-Augmented Generation）
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## About The Project
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This project demonstrates a Retrieval-Augmented Generation (RAG) system utilizing the latest Language Model (LLM) technologies. By leveraging PDF documents as the data source, ChromaDB as the database for efficient retrieval, and Llama3 for language modeling, this project aims to provide high-quality, contextually relevant responses. The embedding model used is MXBAI-embed-large, deployed by Ollama, ensuring robust vector representations of the data.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Built With
+
+* LangChain
+* ChromaDB
+* Llama3
+* Ollama MXBAI-embed-large
+* Ollama mistral
+* boto3
+* pytest
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+1. ```sh
+   git clone https://github.com/Tristan-hsu/RAG-LLM.git
    ```
-3. Install NPM packages
+2. Install packages
    ```sh
-   npm install
+   cd RAG-LLM
+   pip install -r requirements.txt
    ```
-4. Enter your API in `config.js`
+3. 
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
