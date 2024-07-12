@@ -31,10 +31,9 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system utilizin
    cd RAG-LLM
    pip install -r requirements.txt
    ```
-3. 
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+3. <a href="https://ollama.com/download">Download Ollma</a>
+4. 
+5. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
