@@ -31,16 +31,19 @@ This project demonstrates a Retrieval-Augmented Generation (RAG) system utilizin
    cd RAG-LLM
    pip install -r requirements.txt
    ```
-3. <a href="https://ollama.com/download">Download Ollma</a>
-4. 
-5. 
+3. <a href="https://ollama.com/download">Download Ollama</a>
+4. Use Ollama to get embedding model. In this project, we use mxbai-embed-large to embed and mistral to query.
+   ```sh
+   ollama pull mxbai-embed-large
+   ollama pull mistral
+   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Populate Database
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
@@ -53,13 +56,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
